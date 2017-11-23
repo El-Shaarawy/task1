@@ -1,0 +1,70 @@
+1================PGW Signaling Key Performance Indicators (KPIs)  [OCT2EPG01]
+                                                                              Yesterday      One week ago   
+                                 2017-11-20     2017-11-20     2017-11-20     2017-11-19     2017-11-13     
+                                 14:18          14:03          13:48          14:18          14:18          
+PgwGgsnSubscribers               88941          89120          89280          89438          89165          
+GgsnPdpContexts                  56055          56090          56210          55345          54755          
+PgwBearers                       33094          33234          33277          34327          34653          
+GgsnCreatePdpCtxFR               0.04%          0.04%          0.03%          0.02%          0.05%          
+GgsnUpdatePdpCtxFR               0.43%          0.44%          0.40%          0.39%          0.38%          
+PgwS5CreateSessionFR             9.38%          9.73%          8.79%          9.38%          8.87%          
+PgwS5ModifyBearerFR              3.56%          3.64%          3.30%          3.37%          3.25%          
+
+2================PGW Userplane Key Performance Indicators (KPIs)  [OCT2EPG01]
+                                                                              Yesterday      One week ago   
+                                 2017-11-20     2017-11-20     2017-11-20     2017-11-19     2017-11-13     
+                                 14:18          14:03          13:48          14:18          14:18          
+PgwGgsnDlThroughput [Gbps]       2.5357         2.5307         2.4770         2.5207         2.6874         
+PgwGgsnUlThroughput [Gbps]       0.2828         0.2968         0.2906         0.3084         0.2875         
+PgwGgsnDlPacketThroughput [kpps] 298.25         297.42         292.11         296.78         311.72         
+PgwGgsnUlPacketThroughput [kpps] 216.25         215.39         212.26         216.14         224.90         
+PgwGgsnDlDataDropR [ppm]         9189.06        9273.72        9058.50        9406.55        8062.03        
+PgwGgsnUlDataDropR [ppm]         18145.50       17418.61       16939.83       17673.94       15309.67       
+
+3================SGW Signaling Key Performance Indicators (KPIs)  [OCT2EPG01]
+                                                                              Yesterday      One week ago   
+                                 2017-11-20     2017-11-20     2017-11-20     2017-11-19     2017-11-13     
+                                 14:18          14:03          13:48          14:18          14:18          
+SgwSubscribers                   9155           9161           9191           8494           8591           
+SgwConnectedSubscribers          1291           1301           1340           1090           1174           
+SgwPdnConnections                9169           9175           9205           8497           8594           
+SgwBearers                       9169           9175           9205           8497           8594           
+SgwS4S11CreateSessionFR          8.63%          8.43%          8.25%          15.57%         16.27%         
+SgwS4S11ModifyBearerFR           0.00%          0.00%          0.00%          0.00%          -0.00%         
+SgwS4S11DlDataNotificationFR     9.53%          9.32%          9.15%          10.65%         8.84%          
+
+4================SGW Userplane Key Performance Indicators (KPIs)  [OCT2EPG01]
+                                                                              Yesterday      One week ago   
+                                 2017-11-20     2017-11-20     2017-11-20     2017-11-19     2017-11-13     
+                                 14:18          14:03          13:48          14:18          14:18          
+SgwDlThroughputS1uS4S12 [Gbps]   0.1522         0.1979         0.1563         0.1480         0.1438         
+SgwUlThroughputS5S8 [Gbps]       0.0146         0.0181         0.0215         0.0141         0.0142         
+SgwUlThroughputS5 [Gbps]         0.0000         0.0000         0.0000         0.0000         0.0000         
+SgwUlThroughputS8 [Gbps]         0.0000         0.0000         0.0000         0.0000         0.0000         
+SgwDlPktThroughputS1uS4S12 [kpps]16.32          20.52          16.88          15.46          15.64          
+SgwUlPktThroughputS5S8 [kpps]    10.72          12.32          11.21          9.13           10.41          
+SgwUlPktThroughputS5 [kpps]      0.00           0.00           0.00           0.00           0.00           
+SgwUlPktThroughputS8 [kpps]      0.00           0.00           0.00           0.00           0.00           
+SgwUlPktDropRS1uS4S12 [ppm]      20.63          10.83          15.75          14.37          22.63          
+SgwUlPktDropRS5S8 [ppm]          14.31          10.10          15.06          16.32          18.68          
+SgwUlPktDropRS5 [ppm]            -              -              -              -              -              
+SgwUlPktDropRS8 [ppm]            -              -              -              -              -              
+SgwDlPktDropRS1uS4S12 [ppm]      0.00           0.00           0.00           0.00           0.00           
+SgwDlPktDropRS5S8 [ppm]          1.29           1.78           1.51           0.00           0.00           
+SgwDlPktDropRS5 [ppm]            -              -              -              -              -              
+SgwDlPktDropRS8 [ppm]            -              -              -              -              -              
+SgwDlDataDropR [ppm]             1445.96        1275.34        1579.74        1484.70        1620.95        
+SgwUlDataDropR [ppm]             34.94          20.93          30.81          30.68          41.31          
+
+5================CPU load average / peak  [OCT2EPG01]
+                                                                              Yesterday      One week ago   
+                                 2017-11-20     2017-11-20     2017-11-20     2017-11-19     2017-11-13     
+                                 14:18          14:03          13:48          14:18          14:18          
+gc-0/4/1                         0%(2%)         0%(2%)         0%(3%)         0%(2%)         0%(4%)         
+gc-0/5/1                         1%(4%)         1%(4%)         1%(5%)         1%(5%)         1%(9%)         
+gc-0/6/1                         1%(3%)         0%(2%)         0%(2%)         0%(2%)         0%(3%)         
+gu-0/7/1                         14%(15%)       14%(16%)       14%(17%)       14%(17%)       14%(17%)       
+gu-0/8/1                         14%(18%)       14%(17%)       14%(16%)       13%(15%)       14%(16%)       
+
+(-) indicates counter not available, or counter wrapped, or Failure Ratio denominator equals 0.
+It is possible to just display certain sections of this printout, see "epg_healthcheck_kpi -h" for details.
